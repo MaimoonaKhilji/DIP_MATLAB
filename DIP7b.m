@@ -1,8 +1,18 @@
-I = imread('Z:\\Digital image Processing\\Test Images ALL\\Fig0107(b)(kidney-original).tif');
+I = imread('C:\Users\student\Desktop\circuit.tif');
 figure;
 %I  = rgb2gray(I);
 imshow(I);
 title('Original Image');
+
+
+% Apply a median filter
+figure;
+I = medfilt2(I);
+imshow(I), title('Median  -  gaussian Image');
+
+% Apply a mean filter
+I = imfilter(I, fspecial('average', [7, 7]));
+imshow(I), title('Mean  - gaussian Image');
 
 
 
