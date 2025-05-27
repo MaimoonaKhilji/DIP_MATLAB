@@ -1,3 +1,9 @@
+% Agenda
+% Read an Image
+% Use arithmetic operators to change the values in the image
+
+
+% Read an image
 f=imread('C:\Users\student\Desktop\emoji.jpg');
 subplot(2,3,1);
 imshow(f);
