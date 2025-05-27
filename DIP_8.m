@@ -1,3 +1,6 @@
+% Agenda
+% histogram Equalizer
+
 f = imread('Z:\\Digital image Processing\\Test Images ALL\\Fig0107(c)(headCT-Vandy).tif');
 figure;
 subplot(1,2,1),imshow(f),title('Original Image');
