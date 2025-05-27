@@ -1,3 +1,6 @@
+% Agenda
+% ADD Noise 
+% Noise Removal filters
 
 
 % Read an image
