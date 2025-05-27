@@ -1,3 +1,6 @@
+% Agenda
+% Exclusive OR
+
 %image  =>grayscale => binary => logical operator
 % xor= ~x&y | x&~y
 % xor(img1,img2) 
