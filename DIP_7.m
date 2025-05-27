@@ -1,3 +1,6 @@
+% Agenda
+% Edge Detection
+
 I = imread('C:\\Users\\student\\Desktop\\skull.tif');
 
 %I  = rgb2gray(I);
